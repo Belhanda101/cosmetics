@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
+{% load static %}
+
 
 {% block title %} User Signup {% endblock title %}
 
@@ -16,7 +18,7 @@
           <div class="row justify-content-center">
             <div class="col-12 col-lg-10 mb-4">
               <div class="card newimg">
-                <a href="#"><img src="/img/model4.jpg" class="card-img-top"></a>
+                <a href="#"><img src="{% static '' %}img/model4.jpg" class="card-img-top"></a>
               </div>
             </div>
           </div>
